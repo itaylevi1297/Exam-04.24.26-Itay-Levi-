@@ -1,5 +1,4 @@
 Ranks = []
-
 while True:
     user_input = input("enter rank:")
 
@@ -13,10 +12,9 @@ while True:
             break
         else:
             continue
-
+            
     if 1 <= rank <= 5:
         Ranks.append(rank)
-
 
 avg_rank = sum(Ranks) / len(Ranks)
 max_rank = max(Ranks)
